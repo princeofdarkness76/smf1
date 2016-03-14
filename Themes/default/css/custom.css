@@ -1,0 +1,323 @@
+body
+{
+	background-color: #EBEBE2;
+	padding: 0 5% 15px 5%;
+}
+a:link, a:visited, a.new_win:link, a.new_win:visited
+{
+	/*color: #5D5D5E;*/
+	color: #8E4C08;
+	text-decoration: none;
+}
+a.bbc_link:link, a.bbc_link:visited
+{
+	color: #FF6600;
+	text-decoration: none;
+}
+a:hover, a.bbc_link:hover
+{
+	color: #8E4C08;
+	text-decoration: underline;
+}
+div#toolbar
+{
+	height: 30px;
+}
+#logo
+{
+	float: left;
+}
+div#upper_section
+{
+	padding: 5px 5px 0 0;
+	height: 105px;
+	margin-bottom: 12px;
+}
+div#upper_section div.user_section
+{
+	text-align: right;
+	color: #FEFEFE;
+	padding-top: 5px;
+}
+div#upper_section div.user_section a
+{
+	color: #FEFEFE;
+}
+div#upper_section div.user_section p.avatar
+{
+	float: right;
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+div#upper_section div.user_section ul
+{
+	margin: 0;
+	padding-top: 0.6em;
+}
+div#upper_section div.user_section ul li
+{
+	margin-bottom: 0.3em;
+}
+#header div.frame
+{
+	padding-top: 0;
+}
+.navigate_section ul
+{
+	border: none;
+	padding-bottom: 0;
+	padding-top: 1.5em;
+}
+.windowbg, #preview_body
+{
+	background: #EAEADB;
+}
+.windowbg2
+{
+	background: #F2F2E9;
+}
+.roundframe
+{
+	background: #FFFFFF;
+}
+.information
+{
+	border: solid 1px #F2C100;
+	background: #FAE592;
+}
+.activity_stats li div.bar div
+{
+	background: #72C602;
+}
+.buttonlist ul
+{
+	margin: 0 0.4em 0 0;
+}
+.dropmenu li li a:hover, .dropmenu li li:hover>a
+{
+	background: #DDDDCB;
+}
+.dropmenu li li.additional_items
+{
+	background-color: #EFF0E6;
+}
+ul#site_navigation a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul#site_navigation, ul#site_navigation ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	z-index: 900;
+	float: right;
+}
+ul#site_navigation li
+{
+	display: block;
+	float: left;
+	margin: 0;
+}
+ul#site_navigation li span
+{
+	display: block;
+	padding: 0.4em 0.7em;
+	line-height: 20px;
+}
+ul#site_navigation li:hover
+{
+	background-color: #A13100;
+}
+ul#site_navigation li ul
+{
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-color: #872900;
+	border: 1px solid #7E2701;
+}
+ul#site_navigation li ul li
+{
+	float: none;
+	position: relative;
+	margin: 0;
+	padding: 0.5em 1em 0.5em 0;
+}
+ul#site_navigation li ul li a span
+{
+	display: inline;
+}
+ul#site_navigation li:hover ul
+{
+	display: block;
+}
+ul#menu_navigation, ul#menu_navigation ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	z-index: 900;
+}
+ul#menu_navigation a
+{
+	text-decoration: none;
+}
+ul#menu_navigation a, ul#menu_navigation span
+{
+	display: block;
+	color: #5D5D5E;
+}
+ul#menu_navigation li
+{
+	display: block;
+	float: left;
+	padding: 12px 0.8em 0 0.8em;
+	margin: 0;
+	height: 28px;
+	border-right: 1px solid #DDD;
+}
+ul#menu_navigation li.first
+{
+	border-left: 1px solid #DDD;
+}
+ul#menu_navigation li.active
+{
+	background: url(../images/theme/menu_active.png) repeat-x 0 0;
+}
+ul#menu_navigation li:hover
+{
+	background: url(../images/theme/menu_hover.png) repeat-x 0 0;
+}
+ul#menu_navigation li ul
+{
+	display: none;
+	position: absolute;
+	margin: 0.9em 0 0 -0.9em;
+	padding: 0;
+	border: 1px solid #DDD;
+	border-top: none;
+}
+ul#menu_navigation li ul li
+{
+	float: none;
+	position: relative;
+	margin: 0;
+	padding: 0.8em 1.5em 0 1.5em;
+	border: none;
+	background: url(../images/theme/menu_hover.png) repeat-x 0 0;
+	width: 15em;
+}
+ul#menu_navigation li ul li a
+{
+	padding-top: 0.1em;
+	width: 15em;
+}
+ul#menu_navigation li ul li a span
+{
+	display: inline;
+}
+ul#menu_navigation li:hover ul
+{
+	display: block;
+}
+ul#menu_navigation li ul li:hover
+{
+	background: url(../images/theme/menu_active.png) repeat-x 0 0;
+}
+#search_form
+{
+	font-size: x-small;
+}
+div.quoteheader
+{
+	font-weight: normal;
+	font-size: 0.9em;
+	padding: 0.4em;
+	padding-left: 1em;
+	border-top: solid 2px #F0C51B;
+	border-bottom: 1px dashed #F0C51B;
+	background: #f7f0d5;
+}
+blockquote.bbc_standard_quote, blockquote.bbc_alternate_quote
+{
+	font-size: 0.9em;
+	background-color: #F9EEC1;
+	border: 0;
+	border-bottom: solid 2px #F0C51B;
+}
+blockquote.bbc_alternate_quote
+{
+	background-color: #FEECA1;
+}
+div.codeheader
+{
+	font-family: "Consolas", "courier new", "times new roman", monospace;
+	font-size: 1em;
+	padding: 0.4em;
+	padding-left: 1em;
+	border-top: 2px solid #948E76;
+	border-bottom: 1px dashed #948E76;
+	background: #e1ddcb;
+}
+div.codeheader a
+{
+	float: right;
+}
+code.bbc_code
+{
+	font-family: "Consolas", "courier new", "times new roman", monospace;
+	font-size: 1em;
+	background: #D4CFBB;
+	border: 0;
+	border-bottom: 2px solid #948E76;
+}
+.bbc_link:link, .bbc_link:visited
+{
+	color: #5D5D5E;
+	border-bottom: none;
+}
+.bbc_link:hover
+{
+	border-bottom: none;
+}
+.lockedbg
+{
+	background: #e7e7e7;
+}
+.lockedbg2
+{
+	background: #eeeeee;
+}
+.titlebg, .titlebg2, thead tr.titlebg th, tr.titlebg td, tr.titlebg2 td,
+.catbg, .catbg2, tr.catbg td, tr.catbg2 td, tr.catbg th, tr.catbg2 th,
+tr.titlebg td a, tr.titlebg2 td a,
+tr.catbg td a, tr.catbg2 td a, .catbg a,
+tr.titlebg th.smalltext, thead tr.titlebg th a:link, thead tr.titlebg th a:visited,
+h3.catbg, h3.catbg2, h3.titlebg, h4.titlebg, h4.catbg, .table_list tbody.header td,
+h3.catbg a, h3.catbg, .table_list tbody.header td, .table_list tbody.header td a,
+h3.catbg2 a, h3.catbg2,
+h3.catbg a:hover, .table_list tbody.header td a:hover,
+h3.catbg2 a:hover,
+h3.titlebg a, h3.titlebg, h4.titlebg, h4.titlebg a,
+h3.titlebg a:hover, h4.titlebg a:hover,
+.table_grid thead th,
+.table_grid thead th a:link, .table_grid thead th a:visited
+{
+	color: #8E4C08 !important;
+}
+.buttonlist ul li a span
+{
+	height: 20px;
+	line-height: 20px;
+}
+.buttonlist ul li a, .buttonlist ul li a:hover, .buttonlist ul li a span, .buttonlist ul li a:hover span, .buttonlist ul li a.active, .buttonlist ul li a.active span
+{
+	background-color: #FFFFFF;
+}
+div#toolbar .buttonlist ul li a, div#toolbar .buttonlist ul li a:hover, div#toolbar .buttonlist ul li a span, div#toolbar .buttonlist ul li a:hover span, div#toolbar .buttonlist ul li a.active, div#toolbar .buttonlist ul li a.active span
+{
+	background-color: #872900;
+}
